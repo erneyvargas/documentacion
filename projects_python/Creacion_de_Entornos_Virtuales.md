@@ -183,7 +183,7 @@ source my_env/bin/activate
 ## _Construido con_ 🛠️
 
 * [Python](https://www.python.org/) - Lenguaje utilizado
-* [pycharm](http://www.dropwizard.io/1.0.2/docs/) - El IDE usado
+* [pycharm](hhttps://www.jetbrains.com/es-es/pycharm/) - El IDE usado
 
 ## _Autores_ ✒️
 

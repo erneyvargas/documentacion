@@ -16,7 +16,7 @@ El objetivo de este manual, es indicar los pasos para la correcta ejecución de 
 
  1. ##### Creación entorno Virtual 
 
-     Un virtualenv o entorno virtual de Python es un ambiente creado con el objetivo de aislar recursos como librerías y entornos de ejecución del sistema principal o de otros entornos virtuales. para crear un entorno Virtual ir a: [Entornos Visrtuales]("/projects_python/Creación_de_Entornos_Virtuales.md")
+     Un virtualenv o entorno virtual de Python es un ambiente creado con el objetivo de aislar recursos como librerías y entornos de ejecución del sistema principal o de otros entornos virtuales. para crear un entorno Virtual ir a: [Entornos Virtuales]("/projects_python/Creación_de_Entornos_Virtuales.md")
 
  2. ##### Estructura de directorios y archivos del proyecto Python
     Se recomienda dejar en la raíz del programa los siguientes archivos
@@ -75,7 +75,7 @@ La creación del contenedor y el crontab se debe realizar mediante un ticket al 
 ## _Construido con_ 🛠️
 
 * [Python](https://www.python.org/) - Lenguaje utilizado
-* [pycharm](http://www.dropwizard.io/1.0.2/docs/) - El IDE usado
+* [pycharm](https://www.jetbrains.com/es-es/pycharm/) - El IDE usado
 
 ## _Autores_ ✒️
 
@@ -84,30 +84,3 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 * **Erney Vargas** - *Trabajo Inicial* - [erney.vargas](http://git.mct.com.co/erney.vargas)
 * **Erney Vargas** - *Documentación* - [erney.vargas](http://git.mct.com.co/erney.vargas)
 
-
----
-
-```mermaid
-erDiagram  
- CUSTOMER  }|..|{  DELIVERY-ADDRESS  : has  
- CUSTOMER  ||--o{  ORDER  : places  
- CUSTOMER  ||--o{  INVOICE  : "liable for"  
- DELIVERY-ADDRESS  ||--o{  ORDER  : receives  
- INVOICE  ||--|{  ORDER  : covers  
- ORDER  ||--|{  ORDER-ITEM  : includes  
- PRODUCT-CATEGORY  ||--|{  PRODUCT  : contains  
- PRODUCT  ||--o{  ORDER-ITEM  : "ordered in"
-```
-
-
-```mermaid
-classDiagram
-classA --|> classB : Inheritance
-classC --* classD : Composition
-classE --o classF : Aggregation
-classG --> classH : Association
-classI -- classJ : Link(Solid)
-classK ..> classL : Dependency
-classM ..|> classN : Realization
-classO .. classP : Link(Dashed)
-```

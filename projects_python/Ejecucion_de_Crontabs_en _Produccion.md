@@ -216,3 +216,16 @@ Es un archivo de texto donde se listan todas las tareas que deben ejecutarse y e
 			* **-it :** Se ejecuta de forma interactiva (`-i` mantiene STDIN abierto y `-t` asigna un terminal virtual en el contenedor)
 			* **reportAPP	:** Nombre o ID del contenedor
 			* **postmap /etc/postfix/sasl_passwd :**  comando que se ejecutará en este contenedor
+
+
+## _Construido con_ 🛠️
+
+* [Python](https://www.python.org/) - Lenguaje utilizado
+* [Docker](https://www.docker.com/) - Manejador de Contenedores
+
+## _Autores_ ✒️
+
+
+
+* **Erney Vargas** - *Trabajo Inicial* - [erney.vargas](http://git.mct.com.co/erney.vargas)
+* **Erney Vargas** - *Documentación* - [erney.vargas](http://git.mct.com.co/erney.vargas)
