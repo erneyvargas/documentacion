@@ -27,13 +27,24 @@ El objetivo de este manual, es indicar los pasos para la correcta ejecución de 
 
     - ***Ejecutable o iniciador del proyecto**** con el objetivo de que le sea más fácil la identificación de este archivo para el equipo de infraestructura
     - ***requierements.txt*** El cual está conformado por las librerías requeridas para la ejecución del proyecto, este archivo será el que buscara infraestructura para la instalación de las librerías.
-        _Ejemplo de requierements .txt :_
+        _Ejemplo de requirements .txt :_
         ```
         pandas == 1.3.0
         psycopg2-binary == 2.9.1
         openpyxl == 3.0.7
         Pillow == 8.2.0
+
         ```
+        Utilizando EL manejador de paquetes conda:
+
+        ```bash
+        conda list -e > requirements.txt    
+        ```
+        
+        Utilizando EL manejador de paquetes pip
+        ```bash
+        pip install -r requirements.txt
+        ```   
 
 ## _Ejecutando las pruebas_ ⚙️
 
